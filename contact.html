@@ -11,11 +11,21 @@
     <link rel="stylesheet" href="css/styles-merged.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/form.css">
 
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
       <script src="js/vendor/respond.min.js"></script>
     <![endif]-->
+    <style>
+      :root {
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+}html{
+  scroll-behavior: smooth;
+
+}
+    </style>
   </head>
   <body>
 
@@ -25,10 +35,10 @@
     <div class="container-fluid">
         <a href="index.html" class="probootstrap-logo">Trainer<span>.</span></a>
         
-        <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Menu</i></a>
+        <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
         <div class="mobile-menu-overlay"></div>
 
-        <nav role="navigation" class="probootstrap-nav hidden-xs">
+        <nav class="navigation"role="navigation" class="probootstrap-nav hidden-xs">
           <ul class="probootstrap-main-nav">
             <li><a href="index.html">Home</a></li>
             <!--<li><a href="programs.html">Programs</a></li>-->
@@ -56,43 +66,36 @@
   </section>
   <!-- END: section  id="next-section"-->
   <main>
-    <section id="next-section" class="probootstrap-section">
+  <!--  <section id="next-section" class="probootstrap-section">
       <div class="container">
-        <div class="col-md-12">
-            <form action="/action_page.php" method="post" class="probootstrap-form" name="myForm" onsubmit="return validateForm()">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label name="fname">First Name</label>
-                    <input type="text" class="form-control" id="fname" name="fname">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label name="fname">Last Name</label>
-                    <input type="text" class="form-control" id="lname" name="lname">
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" name="email">
-              </div>
-              <div class="form-group">
-                <label for="subject">Subject</label>
-                <input type="text" class="form-control" id="subject" name="subject">
-              </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea cols="30" rows="10" class="form-control" id="message" name="message"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" value="submit" class="btn btn-primary" id="submit" name="submit" value="Send Message">
-              </div>
-            </form>
-          </div>
+          <form id="form" class="form">
+            <h2>Register With Us</h2>
+            <div class="control">
+              <label for="username">Username</label>
+              <input type="text" id="username" placeholder="Enter username" />
+              <small>Error message</small>
+            </div>
+            <div class="control">
+              <label for="email">Email</label>
+              <input type="text" id="email" placeholder="Enter email" />
+              <small>Error message</small>
+            </div>
+            <div class="control">
+              <label for="password">Password</label>
+              <input type="password" id="password" placeholder="Enter password" />
+              <small>Error message</small>
+            </div>
+            <div class="control">
+              <label for="password2">Confirm Password</label>
+              <input type="password" id="password2" placeholder="Enter password again"/>
+              <small>Error message</small>
+            </div>
+            <div class="button">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
       </div>
-    </section>
+    </section>-->
     
   </main>
   <footer class="probootstrap-footer">
@@ -100,7 +103,7 @@
       <div class="container">
        <div class="row">
          <div class="col-md-12 text-center border-top">
-          <h3>Business Collaboration</h3>
+          <h3>Contact</h3>
           <div>
             <p>21ActiveLifeStyle@gmail.com</p>
           </div>         
