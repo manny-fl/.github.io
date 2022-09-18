@@ -59,17 +59,17 @@
     <section id="next-section" class="probootstrap-section">
       <div class="container">
         <div class="col-md-12">
-            <form action="#" method="post" class="probootstrap-form">
+            <form action="/action_page.php" method="post" class="probootstrap-form" name="myForm" onsubmit="return validateForm()">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="fname">First Name</label>
+                    <label name="fname">First Name</label>
                     <input type="text" class="form-control" id="fname" name="fname">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="lname">Last Name</label>
+                    <label name="fname">Last Name</label>
                     <input type="text" class="form-control" id="lname" name="lname">
                   </div>
                 </div>
@@ -87,7 +87,7 @@
                 <textarea cols="30" rows="10" class="form-control" id="message" name="message"></textarea>
               </div>
               <div class="form-group">
-                <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Send Message">
+                <input type="submit" value="submit" class="btn btn-primary" id="submit" name="submit" value="Send Message">
               </div>
             </form>
           </div>
@@ -113,5 +113,6 @@
   <script src="js/scripts.min.js"></script>
   <script src="js/main.min.js"></script>
   <script src="js/custom.js"></script>
+  <script src="script.js"></script>
   </body>
 </html>

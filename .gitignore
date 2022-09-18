@@ -4,6 +4,7 @@
 /css
 /fonts
 /.git
+/.gitignore
 /gulpfile.js
 /package.json
 /README.txt
