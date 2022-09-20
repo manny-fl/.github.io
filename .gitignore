@@ -1,10 +1,4 @@
-/img
-/scss
-/js
-/css
-/fonts
-/.git
+/README.txt	/css		/img		/package.json
+/buff.png	/fonts		index.html	/script.js
+contact.html	/gulpfile.js	/js		/scss
 /.gitignore
-/gulpfile.js
-/package.json
-/README.txt
