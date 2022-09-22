@@ -1,4 +1,4 @@
-/README.txt	/css		/img		/package.json
-/buff.png	/fonts		index.html	/script.js
-contact.html	/gulpfile.js	/js		/scss
-/.gitignore
+README.txt		
+img						
+contact.html	
+.gitignore
